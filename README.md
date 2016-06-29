@@ -6,9 +6,9 @@ requirejs 模块合并
 $ node app.js
 ```
 
-## 优化 src/m1/m.js (依赖 src/m1/m.txt)
+## 根据配置打包模块
 ```
-$ r.js -o tools/build-m1.js
+$ r.js -o tools/build.js
 ```
 
 ## 优化前的效果访问 [http://127.0.0.1:3000/index.html]

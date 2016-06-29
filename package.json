@@ -1,7 +1,7 @@
 {
   "name": "try-requirejs",
   "version": "1.0.0",
-  "description": "requirejs 学习",
+  "description": "requirejs 模块打包",
   "main": "app.js",
   "dependencies": {
     "koa": "^1.2.0",

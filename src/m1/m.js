@@ -1,3 +1,3 @@
-define(["text!m1.txt"], function (txt) {
-    return txt;
+define(function () {
+  return "m1";
 })
