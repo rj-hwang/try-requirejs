@@ -3,7 +3,7 @@
 require.config({
   baseUrl: './src',           // 相对于引用此文件的index.html文件所在的路径
   paths: {                    // 相对于 baseUrl
-    m1: 'm1/m',
+    m2: 'm2/m',
 
     // domReady 插件：http://requirejs.org/docs/api.html#pageload
     domReady: '../tools/domReady.min',
@@ -16,7 +16,7 @@ require.config({
   }
 });
 
-require(["domReady!", "m1"], function (document, m1) {
-  console.log(m1);
-  document.getElementById("info").innerHTML = "<pre>" + m1 + "</pre>";
+require(["domReady!", "m2"], function (document, m2) {
+  console.log(m2);
+  document.getElementById("info").innerHTML = "<pre>" + m2 + "</pre>";
 });

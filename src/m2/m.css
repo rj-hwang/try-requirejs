@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body{
+  background-color: #333;
+  color: #ddd;
+}
+pre{
+  background-color: #000;
+  color: #ddd;
+}
