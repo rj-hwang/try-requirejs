@@ -1,1 +1,20 @@
-Hello!
+src/m1/m.js :
+<code>
+define(["text!m1.txt"], function (txt) {
+    return txt;
+})
+</code>
+
+src/m1/m.txt :
+<code>x...x</code>
+
+<code>$ r.js -o tools/build-m1.js</code>
+
+result out/m1.js : 
+<code>
+define("text!m1.txt", [], function() {
+    return 'x...x';
+}), define("m1", [ "text!m1.txt" ], function(txt) {
+    return txt;
+});
+</code>
