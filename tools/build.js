@@ -1,7 +1,7 @@
 ({
   appDir: "../src",
   baseUrl: './',
-  mainConfigFile: "../tools/main.js",
+  mainConfigFile: "../lib-requirejs/main.js",
   dir: "../build",
   paths: {
   },
@@ -48,5 +48,6 @@
   // 删除已合并的文件
   removeCombined: true,
 
+  fileExclusionRegExp: /lib-requirejs/,
   keepBuildDir: false
 })

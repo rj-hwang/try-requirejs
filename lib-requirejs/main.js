@@ -1,5 +1,5 @@
 require.config({
-  //baseUrl: '../src',
+  baseUrl: '../src',
   paths: {
     "text": '../lib-requirejs/text.min',
     "css": '../lib-requirejs/css.min',
